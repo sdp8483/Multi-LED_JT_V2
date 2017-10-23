@@ -1,0 +1,15 @@
+(module 3mm_PCB_Edge (layer F.Cu) (tedit 59EC9216)
+  (fp_text reference D1 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value LED (at -1.143 1.397) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd oval (at -2.54 0) (size 2.032 5.08) (drill (offset 0 -1.016)) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd oval (at 0 0) (size 2.032 5.08) (drill (offset 0 -1.016)) (layers F.Cu F.Paste F.Mask))
+  (model "../../../../../../home/sam/Dropbox/FreeCAD/Joule Thief/3mmLED.wrl"
+    (at (xyz -0.05 0 0))
+    (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz 0 0 0))
+  )
+)
