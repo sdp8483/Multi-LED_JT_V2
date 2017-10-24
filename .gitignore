@@ -20,3 +20,4 @@ _autosave-*
 *.xlsx
 *.xml
 *.csv
+*bom/*
