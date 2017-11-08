@@ -213,19 +213,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 4200 5750 3500
 Wire Wire Line
-	5150 3500 5750 3500
-Wire Wire Line
-	5750 3500 6550 3500
-Wire Wire Line
-	6550 3500 6850 3500
-Wire Wire Line
-	6850 3500 7150 3500
-Wire Wire Line
-	7150 3500 7450 3500
-Wire Wire Line
-	7450 3500 7750 3500
-Wire Wire Line
-	7750 3500 8050 3500
+	5150 3500 8050 3500
 $Comp
 L GND #PWR01
 U 1 1 59EFDBBD
@@ -273,17 +261,7 @@ Connection ~ 6550 3500
 Wire Wire Line
 	6550 4550 6550 4700
 Wire Wire Line
-	6550 4700 6850 4700
-Wire Wire Line
-	6850 4700 7150 4700
-Wire Wire Line
-	7150 4700 7300 4700
-Wire Wire Line
-	7300 4700 7450 4700
-Wire Wire Line
-	7450 4700 7750 4700
-Wire Wire Line
-	7750 4700 8050 4700
+	6550 4700 8050 4700
 Wire Wire Line
 	8050 4700 8050 4550
 Wire Wire Line
@@ -313,9 +291,7 @@ Wire Wire Line
 	7300 4750 7300 4700
 Connection ~ 7300 4700
 Wire Wire Line
-	2850 3500 4200 3500
-Wire Wire Line
-	4200 3500 4350 3500
+	2850 3500 4350 3500
 Wire Wire Line
 	2850 3500 2850 4250
 $EndSCHEMATC
