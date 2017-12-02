@@ -62,7 +62,7 @@
     (pad_drill 0.9)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFCFFFF)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010f8_80000001)
       (usegerberextensions false)
@@ -30791,10 +30791,10 @@
       (xy 2.975 -8.625)) (layer B.SilkS) (width 0.01))
   )
 
-  (module lib_fp:DPDT_JS202011JAQN (layer F.Cu) (tedit 5A1C154C) (tstamp 5A1C8B9B)
+  (module lib_fp:DPDT_JS202011JAQN (layer F.Cu) (tedit 5A2316EF) (tstamp 5A1C8B9B)
     (at 233.3 117.8)
     (path /5A1C120C)
-    (fp_text reference SW1 (at 0.1 -2.8) (layer F.SilkS)
+    (fp_text reference SW1 (at 0.1 -2.8) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_DPDT (at 0 0) (layer F.Fab)
@@ -30835,7 +30835,7 @@
   (segment (start 186.5 112.7) (end 186.5 108.8) (width 0.25) (layer F.Cu) (net 1) (tstamp 5A025A50))
   (segment (start 186.7 112.9) (end 186.5 112.7) (width 0.25) (layer F.Cu) (net 1) (tstamp 5A025A4B))
   (segment (start 224.4 115.3) (end 233.1 115.3) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 233.3 115.5) (end 233.3 116.6) (width 0.25) (layer F.Cu) (net 2) (tstamp 5A1C8C19) (status 800000))
+  (segment (start 233.3 115.5) (end 233.3 116.6) (width 0.25) (layer F.Cu) (net 2) (tstamp 5A1C8C19))
   (segment (start 233.1 115.3) (end 233.3 115.5) (width 0.25) (layer F.Cu) (net 2) (tstamp 5A1C8C18))
   (segment (start 200.2 115.3) (end 193.2 115.3) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 192.95 115.05) (end 192.95 113.6) (width 0.25) (layer F.Cu) (net 2) (tstamp 5A0259FB))
@@ -30885,8 +30885,8 @@
   (segment (start 188.8 111) (end 188.2 110.4) (width 0.25) (layer F.Cu) (net 5) (tstamp 5A0258C8))
   (segment (start 190.4 111) (end 188.8 111) (width 0.25) (layer F.Cu) (net 5) (tstamp 5A0258C7))
   (segment (start 191.05 111.65) (end 190.4 111) (width 0.25) (layer F.Cu) (net 5) (tstamp 5A0258C6))
-  (segment (start 235.8 116.6) (end 236.7 116.6) (width 0.25) (layer F.Cu) (net 6) (status 400000))
-  (segment (start 236.998 116.302) (end 236.998 112.9) (width 0.25) (layer F.Cu) (net 6) (tstamp 5A1C8C1D) (status 800000))
+  (segment (start 235.8 116.6) (end 236.7 116.6) (width 0.25) (layer F.Cu) (net 6))
+  (segment (start 236.998 116.302) (end 236.998 112.9) (width 0.25) (layer F.Cu) (net 6) (tstamp 5A1C8C1D))
   (segment (start 236.7 116.6) (end 236.998 116.302) (width 0.25) (layer F.Cu) (net 6) (tstamp 5A1C8C1C))
 
   (zone (net 0) (net_name "") (layer F.Cu) (tstamp 5A1C8C20) (hatch edge 0.508)
