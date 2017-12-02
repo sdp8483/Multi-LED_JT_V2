@@ -3,9 +3,9 @@
   (general
     (links 19)
     (no_connects 0)
-    (area 185.3 104.925 239.900001 120.400001)
+    (area 185.474999 105.574999 239.725001 120.225001)
     (thickness 1.6)
-    (drawings 6)
+    (drawings 13)
     (tracks 64)
     (zones 0)
     (modules 12)
@@ -30791,10 +30791,10 @@
       (xy 2.975 -8.625)) (layer B.SilkS) (width 0.01))
   )
 
-  (module lib_fp:DPDT_JS202011JAQN (layer F.Cu) (tedit 5A2316EF) (tstamp 5A1C8B9B)
+  (module lib_fp:DPDT_JS202011JAQN (layer F.Cu) (tedit 5A23198C) (tstamp 5A1C8B9B)
     (at 233.3 117.8)
     (path /5A1C120C)
-    (fp_text reference SW1 (at 0.1 -2.8) (layer F.SilkS) hide
+    (fp_text reference SW1 (at 0 -1.25) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_DPDT (at 0 0) (layer F.Fab)
@@ -30813,6 +30813,15 @@
     (pad "" np_thru_hole circle (at 3.4 0) (size 0.9 0.9) (drill 0.9) (layers *.Cu *.Mask))
   )
 
+  (gr_line (start 234.5 114.45) (end 234.45 114.45) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 234.5 115) (end 234.5 114.45) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 234.4 114.3) (end 234.4 115.1) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 234.8 114.7) (end 234.4 114.3) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 234.8 114.7) (end 234.4 115.1) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_text ON (at 233.05 113.95) (layer F.SilkS)
+    (effects (font (size 1.1 1.1) (thickness 0.17)))
+  )
+  (gr_line (start 234.8 114.7) (end 231.8 114.7) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_text "1.5V AA (LR6)" (at 212.8 117.5) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
   )
