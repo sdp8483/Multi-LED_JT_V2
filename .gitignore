@@ -21,3 +21,6 @@ _autosave-*
 *.xml
 *.csv
 *bom/*
+
+# Zipped Gerber Output
+*gerber/*.zip
