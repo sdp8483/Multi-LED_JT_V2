@@ -1,3 +1,5 @@
-KiCAD Directory Structure
+#Multi-LED Joule Thief V2
 
-Directory structure for starting new projects in KiCAD. Based off Hackaday article: https://hackaday.com/2017/05/18/kicad-best-practises-library-management/
+KiCAD Schematic, PCB layout, GERBER files, and images.
+
+Blog Post: https://samueldperry.com/2017/12/25/multi-led-joule-thief-v2/
