@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Multi-LED_JT_V2)(type Legacy)(uri ${KIPRJMOD}/lib_sch/Multi-LED_JT_V2.lib)(options "")(descr ""))
+)
